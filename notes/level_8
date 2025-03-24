@@ -1,0 +1,7 @@
+[[LEVEL 8]]
+
+`uniq` ~ only looks at consectutive repetitions - so we need to `sort` first!
+
+```
+$ sort data.txt | uniq -u
+```

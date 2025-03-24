@@ -1,0 +1,16 @@
+[[LEVEL 6]]
+
+1. Start out by navigating to the root
+```
+$ cd ../../
+```
+
+2. Search server for correct file size, user, and group
+```
+$ find . -size 33c -user bandit7 -group bandit6
+```
+
+3. read contents of identified file
+```
+$ cat ./var/lib/dpkg/info/bandit7.password
+```

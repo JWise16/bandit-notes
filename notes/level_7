@@ -1,0 +1,7 @@
+[[LEVEL 7]]
+
+For this level - all we need to do is a quick grep for...
+
+```
+$ grep -i "millionth" data.txt
+```

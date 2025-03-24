@@ -1,0 +1,7 @@
+[[LEVEL 11]]
+
+Our data is using the cypher ROT13! luckly for us - ROT13 is an inverse of itself & can be decoded by applying it again as so...
+
+```
+$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+```

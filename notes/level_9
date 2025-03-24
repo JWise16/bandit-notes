@@ -1,0 +1,8 @@
+[[LEVEL 9]]
+
+Oh no ! grep is interpreting this terribly formatted file as binary !! let's convert to string first
+
+
+```
+strings data.txt | grep "="
+```

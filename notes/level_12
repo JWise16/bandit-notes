@@ -1,0 +1,31 @@
+[[LEVEL 12]]
+
+For this level - we need to make a tempdir
+
+```
+$ mktemp -d
+```
+
+for this round, the tmpdir is... `/tmp/tmp.ocwSxHOxIt`
+
+
+Next - let's copy our file over to the new tmpdir
+
+```
+$ cp data.txt /tmp/tmp.ocwSxHOIt/
+```
+
+and confirm the data has moved to the new spot
+
+```
+$ ls /tmp/tmp.ocwSxHOxIt/
+```
+
+It get's a bit repetitive - so here's a summary of the useful commands
+
+First - convert the hexdump back into a file
+```
+$ xxd -r /tmp/tmp.ocwSxHOxIt/data.txt
+```
+
+A compressed file must be uncompressed by the same set of compression tools - therefore - we'll use `$ file fileName` to find out what kind of compressed file we are working with & then use the correct uncompression tool !

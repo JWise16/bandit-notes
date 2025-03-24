@@ -1,0 +1,14 @@
+[[LEVEL 13]]
+
+As stated in the directions - no password - just connect using the private key provided
+
+```
+$ ssh -i sshkey.private -p 2220 bandit14@localhost
+```
+
+Once sucessfully connected... grab our password !
+```
+$ cat /etc/bandit_pass/bandit14
+```
+
+

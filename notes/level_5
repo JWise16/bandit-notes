@@ -1,0 +1,58 @@
+Still not done with this level yet...
+
+
+So far - I have a search for all files non-executable
+
+```
+$ find ! -executable
+```
+
+
+Here's another command for finding non-executable + readable
+```
+$ find . -readable \! -executable
+```
+((These are the same))
+
+
+
+Here's a command for finding sizes of all files -
+```
+$ ls -a -R --size -S -h
+```
+
+Another command for finding sizes of all files - 
+```
+du -a -all -h
+```
+
+
+Im guessing I also need to filter by size ? (1033 bytes)
+
+
+for commands we have...
+```
+ls - 
+
+cd
+
+cat
+
+file
+
+du
+
+find
+```
+
+
+
+--DONE--
+
+Solution = locate file with size 1033 bytes
+
+```
+find . -size 1033c
+```
+
+Was also useful to filter by file permissions - but ended up with > 60 results - would need to filter by size anyway

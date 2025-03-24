@@ -1,0 +1,5 @@
+Seems this one is similar to the previous level (files start with -f)
+
+However, "catting" the output fucks up your terminal a bit (fixable with 'reset')
+
+Easiest way is to vim quickly - answer is in file07 - i think

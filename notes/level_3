@@ -1,0 +1,7 @@
+The purpose of this level is to introduct hidden filesd (i.e. files prefixed with a dot)
+
+
+Simple solution - list all files
+```
+la -a
+``` 

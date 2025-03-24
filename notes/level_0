@@ -1,0 +1,11 @@
+# [LEVEL 0]
+
+connect to the bandit host
+```
+$ ssh bandit0@bandit.labs.overthewire.org -p 2220
+```
+
+`cat` the content's of the readme to see the password
+```
+$ cat readme
+```

@@ -1,0 +1,5 @@
+This level introducts special characters !
+
+Specifically, it includes a file named "-" ...
+
+The solution to this problem is to use the full path to the file "./-"
